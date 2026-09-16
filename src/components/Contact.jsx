@@ -38,12 +38,14 @@ export default function Contact({ darkMode, lang }) {
             nameEn: "Email",
             icon: <Mail size={24} />,
             href: "mailto:contact@neomind.com",
+            color: "hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
         },
         {
             nameAr: "رقم الهاتف",
             nameEn: "Phone Number",
             icon: <Phone size={24} />,
             href: "tel:+201124024707",
+            color: "hover:bg-purple-600 hover:text-white hover:border-purple-600"
         }
     ];
 
