@@ -9,17 +9,17 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
 
     const t = {
         ar: {
+            home: "الرئيسية",
             services: "خدماتنا",
             portfolio: "أعمالنا",
-            about: "من نحن",
             contact: "تواصل معنا",
             start: "ابدأ مشروعك",
             menu: "القائمة"
         },
         en: {
+            home: "Home",
             services: "Services",
             portfolio: "Portfolio",
-            about: "About Us",
             contact: "Contact",
             start: "Start Project",
             menu: "Menu"
@@ -56,15 +56,14 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
         <>
             <nav
                 dir={lang === 'ar' ? 'rtl' : 'ltr'}
-                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-                    scrolled
-                        ? darkMode
-                            ? 'bg-slate-950/75 backdrop-blur-md shadow-lg shadow-black/10'
-                            : 'bg-white/75 backdrop-blur-md shadow-lg shadow-slate-200/50'
-                        : darkMode
-                            ? 'bg-slate-950 text-slate-100'
-                            : 'bg-white text-slate-900'
-                }`}
+                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+                    ? darkMode
+                        ? 'bg-slate-950/75 backdrop-blur-md shadow-lg shadow-black/10'
+                        : 'bg-white/75 backdrop-blur-md shadow-lg shadow-slate-200/50'
+                    : darkMode
+                        ? 'bg-slate-950 text-slate-100'
+                        : 'bg-white text-slate-900'
+                    }`}
             >
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
 
@@ -77,16 +76,16 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                     </a>
 
                     <div className="hidden md:flex items-center gap-8">
+                        <a href="/" className="hover:text-accent transition">
+                            {t[lang].home}
+                        </a>
+
                         <a href="/services" className="hover:text-accent transition">
                             {t[lang].services}
                         </a>
 
                         <a href="/portfolio" className="hover:text-accent transition">
                             {t[lang].portfolio}
-                        </a>
-
-                        <a href={homeLink('about')} className="hover:text-accent transition">
-                            {t[lang].about}
                         </a>
 
                         <a href={homeLink('contact')} className="hover:text-accent transition">
@@ -97,11 +96,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                     <div className="hidden md:flex items-center gap-3">
                         <button
                             onClick={() => setLang(lang === 'ar' ? 'en' : 'ar')}
-                            className={`p-2 rounded-xl border transition flex items-center gap-1.5 text-sm font-medium ${
-                                darkMode
-                                    ? 'border-slate-800 bg-slate-900 text-slate-300 hover:border-accent'
-                                    : 'border-slate-200 bg-slate-100 text-slate-700 hover:border-accent'
-                            }`}
+                            className={`p-2 rounded-xl border transition flex items-center gap-1.5 text-sm font-medium ${darkMode
+                                ? 'border-slate-800 bg-slate-900 text-slate-300 hover:border-accent'
+                                : 'border-slate-200 bg-slate-100 text-slate-700 hover:border-accent'
+                                }`}
                         >
                             <Globe size={16} className="text-accent" />
                             <span>{lang === 'ar' ? 'English' : 'عربي'}</span>
@@ -109,11 +107,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
 
                         <button
                             onClick={() => setDarkMode(!darkMode)}
-                            className={`p-2.5 rounded-xl border transition ${
-                                darkMode
-                                    ? 'border-slate-800 bg-slate-900 text-accent hover:bg-slate-800'
-                                    : 'border-slate-200 bg-slate-100 text-brand hover:bg-slate-200'
-                            }`}
+                            className={`p-2.5 rounded-xl border transition ${darkMode
+                                ? 'border-slate-800 bg-slate-900 text-accent hover:bg-slate-800'
+                                : 'border-slate-200 bg-slate-100 text-brand hover:bg-slate-200'
+                                }`}
                         >
                             {darkMode ? <Sun size={18} /> : <Moon size={18} />}
                         </button>
@@ -154,25 +151,22 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                             w-[82%] max-w-[360px]
                             flex flex-col
                             shadow-[0_0_40px_rgba(0,0,0,0.35)]
-                            ${
-                                lang === 'ar'
-                                    ? 'right-0'
-                                    : 'left-0'
+                            ${lang === 'ar'
+                                ? 'right-0'
+                                : 'left-0'
                             }
-                            ${
-                                darkMode
-                                    ? 'bg-slate-950 text-white'
-                                    : 'bg-white text-slate-900'
+                            ${darkMode
+                                ? 'bg-slate-950 text-white'
+                                : 'bg-white text-slate-900'
                             }
                         `}
                     >
 
                         <div
-                            className={`h-20 shrink-0 px-5 flex items-center justify-between border-b ${
-                                darkMode
-                                    ? 'border-slate-800'
-                                    : 'border-slate-200'
-                            }`}
+                            className={`h-20 shrink-0 px-5 flex items-center justify-between border-b ${darkMode
+                                ? 'border-slate-800'
+                                : 'border-slate-200'
+                                }`}
                         >
                             <span className="text-xl font-bold text-accent">
                                 {t[lang].menu}
@@ -180,11 +174,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
 
                             <button
                                 onClick={closeMenu}
-                                className={`p-2.5 rounded-xl border ${
-                                    darkMode
-                                        ? 'bg-slate-900 border-slate-800'
-                                        : 'bg-slate-50 border-slate-200'
-                                }`}
+                                className={`p-2.5 rounded-xl border ${darkMode
+                                    ? 'bg-slate-900 border-slate-800'
+                                    : 'bg-slate-50 border-slate-200'
+                                    }`}
                             >
                                 <X size={21} />
                             </button>
@@ -197,11 +190,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                                 <a
                                     href="/services"
                                     onClick={closeMenu}
-                                    className={`py-4 text-lg font-medium border-b ${
-                                        darkMode
-                                            ? 'border-slate-800'
-                                            : 'border-slate-200'
-                                    } hover:text-accent transition`}
+                                    className={`py-4 text-lg font-medium border-b ${darkMode
+                                        ? 'border-slate-800'
+                                        : 'border-slate-200'
+                                        } hover:text-accent transition`}
                                 >
                                     {t[lang].services}
                                 </a>
@@ -209,11 +201,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                                 <a
                                     href="/portfolio"
                                     onClick={closeMenu}
-                                    className={`py-4 text-lg font-medium border-b ${
-                                        darkMode
-                                            ? 'border-slate-800'
-                                            : 'border-slate-200'
-                                    } hover:text-accent transition`}
+                                    className={`py-4 text-lg font-medium border-b ${darkMode
+                                        ? 'border-slate-800'
+                                        : 'border-slate-200'
+                                        } hover:text-accent transition`}
                                 >
                                     {t[lang].portfolio}
                                 </a>
@@ -221,11 +212,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                                 <a
                                     href={homeLink('about')}
                                     onClick={closeMenu}
-                                    className={`py-4 text-lg font-medium border-b ${
-                                        darkMode
-                                            ? 'border-slate-800'
-                                            : 'border-slate-200'
-                                    } hover:text-accent transition`}
+                                    className={`py-4 text-lg font-medium border-b ${darkMode
+                                        ? 'border-slate-800'
+                                        : 'border-slate-200'
+                                        } hover:text-accent transition`}
                                 >
                                     {t[lang].about}
                                 </a>
@@ -233,11 +223,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                                 <a
                                     href={homeLink('contact')}
                                     onClick={closeMenu}
-                                    className={`py-4 text-lg font-medium border-b ${
-                                        darkMode
-                                            ? 'border-slate-800'
-                                            : 'border-slate-200'
-                                    } hover:text-accent transition`}
+                                    className={`py-4 text-lg font-medium border-b ${darkMode
+                                        ? 'border-slate-800'
+                                        : 'border-slate-200'
+                                        } hover:text-accent transition`}
                                 >
                                     {t[lang].contact}
                                 </a>
@@ -246,22 +235,20 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
                         </div>
 
                         <div
-                            className={`shrink-0 p-5 border-t ${
-                                darkMode
-                                    ? 'border-slate-800'
-                                    : 'border-slate-200'
-                            }`}
+                            className={`shrink-0 p-5 border-t ${darkMode
+                                ? 'border-slate-800'
+                                : 'border-slate-200'
+                                }`}
                         >
 
                             <div className="flex gap-3 mb-4">
 
                                 <button
                                     onClick={() => setLang(lang === 'ar' ? 'en' : 'ar')}
-                                    className={`flex-1 p-3 rounded-xl border flex items-center justify-center gap-2 text-sm font-medium ${
-                                        darkMode
-                                            ? 'bg-slate-900 border-slate-800 text-slate-200'
-                                            : 'bg-slate-100 border-slate-200 text-slate-700'
-                                    }`}
+                                    className={`flex-1 p-3 rounded-xl border flex items-center justify-center gap-2 text-sm font-medium ${darkMode
+                                        ? 'bg-slate-900 border-slate-800 text-slate-200'
+                                        : 'bg-slate-100 border-slate-200 text-slate-700'
+                                        }`}
                                 >
                                     <Globe size={18} className="text-accent" />
                                     <span>
@@ -271,11 +258,10 @@ export default function Navbar({ darkMode, setDarkMode, lang, setLang }) {
 
                                 <button
                                     onClick={() => setDarkMode(!darkMode)}
-                                    className={`p-3 rounded-xl border ${
-                                        darkMode
-                                            ? 'bg-slate-900 border-slate-800 text-accent'
-                                            : 'bg-slate-100 border-slate-200 text-brand'
-                                    }`}
+                                    className={`p-3 rounded-xl border ${darkMode
+                                        ? 'bg-slate-900 border-slate-800 text-accent'
+                                        : 'bg-slate-100 border-slate-200 text-brand'
+                                        }`}
                                 >
                                     {darkMode ? (
                                         <Sun size={20} />

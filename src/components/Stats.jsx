@@ -23,10 +23,10 @@ export default function Stats({ darkMode, lang }) {
         <section 
             id="stats" 
             dir={lang === 'ar' ? 'rtl' : 'ltr'}
-            className={`py-16 transition-colors duration-300 border-y ${
+            className={`py-16 transition-colors duration-300 ${
                 darkMode 
-                    ? 'bg-gradient-to-r from-indigo-950/40 via-purple-950/40 to-slate-950 border-slate-900 text-white' 
-                    : 'bg-gradient-to-r from-slate-100 via-purple-50 to-indigo-50 border-slate-200 text-slate-900'
+                    ? 'bg-indigo-950/40 text-white' 
+                    : 'bg-[rgba(0,0,0,0.1)]  text-slate-900'
             }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,11 +34,7 @@ export default function Stats({ darkMode, lang }) {
                     {stats.map((item, index) => (
                         <div 
                             key={index} 
-                            className={`p-6 rounded-2xl transition-all duration-300 ${
-                                darkMode 
-                                    ? 'hover:bg-slate-900/40' 
-                                    : 'hover:bg-white/60 shadow-sm border border-slate-200/50'
-                            }`}
+                            className="p-6 rounded-2xl transition-all duration-300 "
                         >
                             <div className={`text-3xl sm:text-4xl md:text-5xl font-black mb-2 ${
                                 darkMode ? 'text-white' : 'text-brand'

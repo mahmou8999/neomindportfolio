@@ -1,0 +1,708 @@
+{
+  "logos": [
+    {
+      "id": 1,
+      "titleAr": "شعار نيومايند",
+      "titleEn": "Neomind Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "الشعار الرسمي لشركة نيومايند للحلول الرقمية والبرمجيات.",
+      "descEn": "Official logo for Neomind digital solutions and software.",
+      "videoUrl": "/4.png"
+    },
+    {
+      "id": 2,
+      "titleAr": "شعار حواء سيكريت",
+      "titleEn": "Hawa Secret Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "الشعار الرسمي لمتجر حواء سيكريت لمستحضرات التجميل والعطور.",
+      "descEn": "Official logo for Hawa Secret cosmetics and perfumes store.",
+      "videoUrl": "/7awa-secret-logo (1).png"
+    },
+    {
+      "id": 3,
+      "titleAr": "شعار العلامة المعمارية",
+      "titleEn": "Architectural Brand Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار هندسي معماري لخدمات التصميم والمقاولات.",
+      "descEn": "Architectural engineering logo for design and contracting services.",
+      "videoUrl": "/16.png"
+    },
+    {
+      "id": 4,
+      "titleAr": "شعار متجر الراغب للعطور",
+      "titleEn": "Elragheb Perfumes Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار الهوية البصرية لمتجر عطور الراغب الفاخرة.",
+      "descEn": "Visual identity logo for Elragheb luxury perfumes store.",
+      "videoUrl": "/ELRAGHEB 339859095_786271886363427_772097597437719017_n.jpg"
+    },
+    {
+      "id": 5,
+      "titleAr": "شعار الموزع والهدايا",
+      "titleEn": "Distributor & Gifts Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار مخصص لتجارة الهدايا والموزعين.",
+      "descEn": "Logo dedicated to gift trade and distributors.",
+      "videoUrl": "/434427576_446633261219248_4735303210742727288_n.jpg"
+    },
+    {
+      "id": 6,
+      "titleAr": "شعار الأثاث المكتبي",
+      "titleEn": "Office Furniture Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار مخصص لشركات ومتاجر الأثاث المكتبي.",
+      "descEn": "Logo dedicated to office furniture companies and stores.",
+      "videoUrl": "/475475995_122124582560596717_8694545389426940249_n.jpg"
+    },
+    {
+      "id": 7,
+      "titleAr": "شعار خدمات التصميم والتطوير",
+      "titleEn": "Design & Development Services Logo",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "شعار يمثل خدمات البرمجة وتصميم واجهات المستخدم.",
+      "descEn": "Logo representing programming and UI/UX design services.",
+      "videoUrl": "/branding.c8daf3b2.png"
+    },
+    {
+      "id": 8,
+      "titleAr": "شعار بت ستار",
+      "titleEn": "Pet Star Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار متجر منتجات الحيوانات الأليفة بت ستار.",
+      "descEn": "Logo for Pet Star pet supplies store.",
+      "videoUrl": "/favicon2.png"
+    },
+    {
+      "id": 9,
+      "titleAr": "شعار شركة مور",
+      "titleEn": "More Company Logo",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "الشعار الرسمي لشركة مور للتجارة والخدمات التقنية.",
+      "descEn": "Official logo for More trading and tech services company.",
+      "videoUrl": "/MORE.png"
+    },
+    {
+      "id": 10,
+      "titleAr": "شعار الهوية البصرية الأساسي",
+      "titleEn": "Primary Visual Identity Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار الهوية البصرية الأساسية للبراند.",
+      "descEn": "Primary visual identity logo for the brand.",
+      "videoUrl": "/logo.png"
+    },
+    {
+      "id": 11,
+      "titleAr": "شعار متجر الأجهزة الذكية",
+      "titleEn": "Smart Devices Store Logo",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "شعار متجر إلكتروني متخصص في الأجهزة والإلكترونيات.",
+      "descEn": "Logo for an e-commerce store specialized in devices and electronics.",
+      "videoUrl": "/unnamed.jpg"
+    },
+    {
+      "id": 12,
+      "titleAr": "شعار العلامة التجاريـة للسيارات والديكور",
+      "titleEn": "Automotive & Decor Brand Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار فني وديكوري للسيارات والديكورات الحديثة.",
+      "descEn": "Artistic and decor logo for automobiles and modern decorations.",
+      "videoUrl": "/8896dc125866889.61223784d73b8 (1).jpg"
+    },
+    {
+      "id": 13,
+      "titleAr": "شعار الهوية البديل",
+      "titleEn": "Alternative Identity Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "نموذج إضافي لشعار الهوية البصرية المتكاملة.",
+      "descEn": "Additional mockup for the integrated visual identity logo.",
+      "videoUrl": "/8896dc125866889.61223784d73b8.jpg"
+    },
+    {
+      "id": 14,
+      "titleAr": "شعار البانر الترويجي العام",
+      "titleEn": "General Promo Banner Logo",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "شعار مقاسات البانرات الترويجية العريضة.",
+      "descEn": "Logo formatted for wide promotional banner dimensions.",
+      "videoUrl": "/1600x500.png"
+    }
+  ],
+  "designs": [
+    {
+      "id": 1,
+      "titleAr": "عرض الساعات والإكسسوارات الذكية",
+      "titleEn": "Smart Watches & Accessories Offer",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "تصميم إعلاني ترويجي لعروض الساعات الذكية وإكسسوارات الموبايل بأسعار تنافسية.",
+      "descEn": "Promotional advertising design for smart watches and mobile accessories offers at competitive prices.",
+      "videoUrl": "/02.jpg"
+    },
+    {
+      "id": 2,
+      "titleAr": "عروض الأجهزة والأدوات المنزلية",
+      "titleEn": "Home Appliances Offers",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "تصميم ترويجي لخصومات وتخفيضات الأجهزة المنزلية الكبرى.",
+      "descEn": "Promotional design for major home appliances discounts and sales.",
+      "videoUrl": "/2.jpg"
+    },
+    {
+      "id": 3,
+      "titleAr": "تصميم عقاري ومقاولات",
+      "titleEn": "Real Estate & Contracting Design",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "بوستر إعلاني للمشاريع العقارية وخدمات المقاولات والديكور.",
+      "descEn": "Advertising poster for real estate projects, contracting, and decor services.",
+      "videoUrl": "/3.jpg"
+    },
+    {
+      "id": 4,
+      "titleAr": "بانر خدمات الهوية الرقمية",
+      "titleEn": "Digital Identity Services Banner",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "بانر ترويجي لخدمات وتطوير الهوية الرقمية والبرمجيات.",
+      "descEn": "Promotional banner for digital identity and software development services.",
+      "videoUrl": "/3.png"
+    },
+    {
+      "id": 5,
+      "titleAr": "إعلان ترويجي لخدمات الشركات",
+      "titleEn": "Corporate Services Promo",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "إعلان ترويجي لخدمات التصميم الجرافيكي وتطوير الهوية البصرية للشركات.",
+      "descEn": "Promotional ad for graphic design and corporate visual identity development.",
+      "videoUrl": "/4.jpg"
+    },
+    {
+      "id": 6,
+      "titleAr": "عروض الأجهزة الترفيهية والشاشات",
+      "titleEn": "Entertainment & Screens Offers",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "تصميم إعلاني لترويج الشاشات الذكية وتخفيضات العيد.",
+      "descEn": "Advertising design promoting smart screens and holiday discounts.",
+      "videoUrl": "/5.jpg"
+    },
+    {
+      "id": 7,
+      "titleAr": "حملة إعلانية لمنتجات متنوعة",
+      "titleEn": "Various Products Ad Campaign",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم سوشيال ميديا ترويجي لمنتجات متعددة بأسعار تنافسية وعروض لفترة محدودة.",
+      "descEn": "Promotional social media design for multiple products at competitive prices.",
+      "videoUrl": "/6.jpg"
+    },
+    {
+      "id": 8,
+      "titleAr": "بانر تخفيضات موسمية",
+      "titleEn": "Seasonal Sale Banner",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "بانر ترويجي لعروض الساعات الذكية والإكسسوارات بأسعار مخفضة.",
+      "descEn": "Promotional banner for smart watches and accessories at discounted prices.",
+      "videoUrl": "/7.jpg"
+    },
+    {
+      "id": 9,
+      "titleAr": "إعلان كاميرات المراقبة والحماية",
+      "titleEn": "Security Cameras Ad",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "بوستر إعلاني لخدمات تركيب أنظمة المراقبة والكاميرات الأمنية.",
+      "descEn": "Advertising poster for surveillance systems and security cameras installation.",
+      "videoUrl": "/8.jpg"
+    },
+    {
+      "id": 10,
+      "titleAr": "إعلان هواتف آيفون بلس",
+      "titleEn": "iPhone Plus Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان ترويجي لتوفير هواتف آيفون بجميع إصداراتها مع الضمان.",
+      "descEn": "Promotional ad for providing iPhone devices in all versions with warranty.",
+      "videoUrl": "/8-Plus.jpg"
+    },
+    {
+      "id": 11,
+      "titleAr": "عرض الهواتف الذكية والإلكترونيات",
+      "titleEn": "Smartphones & Electronics Offer",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم إعلاني لعرض أحدث الهواتف الذكية والإكسسوارات الأصلية.",
+      "descEn": "Advertising design showcasing the latest smartphones and original accessories.",
+      "videoUrl": "/9.jpg"
+    },
+    {
+      "id": 12,
+      "titleAr": "تصميم ترويجي لمنتجات متعددة",
+      "titleEn": "Multiple Products Promo",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "بوسترات إعلانية ترويجية لعروض المنتجات المختلفة على منصات السوشيال ميديا.",
+      "descEn": "Promotional ad posters for various product offers on social media platforms.",
+      "videoUrl": "/10.jpg"
+    },
+    {
+      "id": 13,
+      "titleAr": "إعلان آيفون 11",
+      "titleEn": "iPhone 11 Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم إعلاني مخصص لعروض هواتف آيفون 11 بأسعار مميزة.",
+      "descEn": "Custom advertising design for iPhone 11 offers at special prices.",
+      "videoUrl": "/11.jpg"
+    },
+    {
+      "id": 14,
+      "titleAr": "عرض الهواتف الاقتصادية",
+      "titleEn": "Budget Phones Offer",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "بوستر ترويجي لهواتف الأندرويد والآيفون مع تفاصيل الأسعار.",
+      "descEn": "Promotional poster for Android and iPhone devices with price details.",
+      "videoUrl": "/12.jpg"
+    },
+    {
+      "id": 15,
+      "titleAr": "إعلان آيفون 13",
+      "titleEn": "iPhone 13 Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم تسويقي لعروض أجهزة آيفون 13 بجميع الألوان والفئات.",
+      "descEn": "Marketing design for iPhone 13 offers in all colors and categories.",
+      "videoUrl": "/13-.jpg"
+    },
+    {
+      "id": 16,
+      "titleAr": "إعلان إصدارات آيفون الإضافية",
+      "titleEn": "Extra iPhone Editions Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان تسويقي لسلسلة هواتف آيفون وإصداراتها الخاصة.",
+      "descEn": "Marketing ad for iPhone series and special editions.",
+      "videoUrl": "/13-------.jpg"
+    },
+    {
+      "id": 17,
+      "titleAr": "إعلان آيفون 13 برو",
+      "titleEn": "iPhone 13 Pro Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان مميز لسلسلة هواتف آيفون 13 برو وبرو ماكس.",
+      "descEn": "Featured ad for iPhone 13 Pro and Pro Max series.",
+      "videoUrl": "/13-pro.jpg"
+    },
+    {
+      "id": 18,
+      "titleAr": "إعلان آيفون 13 برو ماكس",
+      "titleEn": "iPhone 13 Pro Max Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان ترويجي لجهاز آيفون 13 برو ماكس ومواصفاته.",
+      "descEn": "Promotional ad for iPhone 13 Pro Max and its specifications.",
+      "videoUrl": "/13-pro-max.jpg"
+    },
+    {
+      "id": 19,
+      "titleAr": "إعلان آيفون 14",
+      "titleEn": "iPhone 14 Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصاميم سوشيال ميديا لإصدارات آيفون 14 الأساسية.",
+      "descEn": "Social media designs for base iPhone 14 editions.",
+      "videoUrl": "/14.jpg-----.jpg"
+    },
+    {
+      "id": 20,
+      "titleAr": "إعلان آيفون 14 بلس",
+      "titleEn": "iPhone 14 Plus Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "بانر تسويقي لإصدارات آيفون 14 بلس الجديدة وتخفيضاتها.",
+      "descEn": "Marketing banner for new iPhone 14 Plus editions and discounts.",
+      "videoUrl": "/14-plus.jpg"
+    },
+    {
+      "id": 21,
+      "titleAr": "إعلان آيفون 14 برو",
+      "titleEn": "iPhone 14 Pro Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان ترويجي لهواتف آيفون 14 برو.",
+      "descEn": "Promotional ad for iPhone 14 Pro smartphones.",
+      "videoUrl": "/14-pro---.jpg"
+    },
+    {
+      "id": 22,
+      "titleAr": "إعلان آيفون 14 برو ماكس",
+      "titleEn": "iPhone 14 Pro Max Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم تسويقي لعروض آيفون 14 برو ماكس.",
+      "descEn": "Marketing design for iPhone 14 Pro Max offers.",
+      "videoUrl": "/14-pro-max.jpg"
+    },
+    {
+      "id": 23,
+      "titleAr": "إعلان معدات ومقاولات",
+      "titleEn": "Equipment & Contracting Ad",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "بوستر ترويجي لخدمات ومعدات المقاولات والبناء.",
+      "descEn": "Promotional poster for contracting and construction services and equipment.",
+      "videoUrl": "/14-Recovered1.jpg"
+    },
+    {
+      "id": 24,
+      "titleAr": "تصميم إعلاني للمعدات الثقيلة",
+      "titleEn": "Heavy Equipment Ad Design",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "تصميم ترويجي لمعدات البناء والمقاولات الكبرى.",
+      "descEn": "Promotional design for major construction and contracting equipment.",
+      "videoUrl": "/15.jpg"
+    },
+    {
+      "id": 25,
+      "titleAr": "تخفيضات العروض الكبرى",
+      "titleEn": "Mega Sale Discounts",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم إعلاني لموسم التخفيضات والعروض الكبرى على الأجهزة.",
+      "descEn": "Advertising design for seasonal discounts and major appliance offers.",
+      "videoUrl": "/157.jpg"
+    },
+    {
+      "id": 26,
+      "titleAr": "بانر إعلاني للأثاث المنزلي",
+      "titleEn": "Home Furniture Banner",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "تصميم بانر إعلاني لعروض المفروشات والأثاث المنزلي العصري.",
+      "descEn": "Advertising banner design for modern furniture and home decor offers.",
+      "videoUrl": "/164_furniture_social_media_banner.jpg"
+    },
+    {
+      "id": 27,
+      "titleAr": "إعلان هواتف آيفون 12",
+      "titleEn": "iPhone 12 Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان ترويجي لسلسلة هواتف آيفون 12.",
+      "descEn": "Promotional ad for the iPhone 12 smartphone series.",
+      "videoUrl": "/11111.jpg"
+    },
+    {
+      "id": 28,
+      "titleAr": "إعلان جهاز تتبع آبل AirTag",
+      "titleEn": "Apple AirTag Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم ترويجي لقطع تتبع الأغراض إير تاق من أبل.",
+      "descEn": "Promotional design for Apple AirTag tracking devices.",
+      "videoUrl": "/airtag.jpg"
+    },
+    {
+      "id": 29,
+      "titleAr": "إعلان كابلات أبل الأصلية",
+      "titleEn": "Original Apple Cables Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "بوستر ترويجي لملحقات وشواحن أبل الأصلية وضماناتها.",
+      "descEn": "Promotional poster for original Apple accessories and chargers with warranty.",
+      "videoUrl": "/apple-cable.jpg"
+    },
+    {
+      "id": 30,
+      "titleAr": "إعلان شواحن أبل الأصلية",
+      "titleEn": "Original Apple Chargers Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم ترويجي لمستلزمات الشحن السريع والأجهزة الأصلية.",
+      "descEn": "Promotional design for fast-charging supplies and original devices.",
+      "videoUrl": "/apple-original-adapter.jpg"
+    },
+    {
+      "id": 31,
+      "titleAr": "عنصر تصميم رقمي",
+      "titleEn": "Digital Design Asset",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "عصر تصميمي وأصل رقمي مستخدم في الواجهات.",
+      "descEn": "Design asset and digital element used in user interfaces.",
+      "videoUrl": "/Asset 1@4x.png"
+    },
+    {
+      "id": 32,
+      "titleAr": "أيقونة الموقع التفضيلية",
+      "titleEn": "Website Favicon",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "أيقونة المتصفح الفضية للمواقع الإلكترونية.",
+      "descEn": "Website browser favicon icon.",
+      "videoUrl": "/favicon.svg"
+    },
+    {
+      "id": 33,
+      "titleAr": "توليد بالذكاء الاصطناعي لتصميم",
+      "titleEn": "AI Generated Design",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "تصميم تم توليده بالذكاء الاصطناعي لعروض المنتجات.",
+      "descEn": "AI-generated design for product showcases.",
+      "videoUrl": "/Gemini_Generated_Image_4owqk94owqk94owq.png"
+    },
+    {
+      "id": 34,
+      "titleAr": "رسم توضيحي",
+      "titleEn": "Illustration Artwork",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "رسم توضيحي إبداعي لواجهات المستخدم.",
+      "descEn": "Creative illustration artwork for user interfaces.",
+      "videoUrl": "/illustration.1e371c8f.png"
+    },
+    {
+      "id": 35,
+      "titleAr": "بانر خدمات التصوير والميديا",
+      "titleEn": "Media Production Banner",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم ترويجي لخدمات التصوير الاحترافي والمونتاج وصناعة الفيديو.",
+      "descEn": "Promotional design for professional photography, editing, and video production services.",
+      "videoUrl": "/media-production.naf074bbb.png"
+    },
+    {
+      "id": 36,
+      "titleAr": "تصميم موشن جرافيك ترويجي",
+      "titleEn": "Promotional Motion Graphics Design",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم يبرز مهارات وخدمات صناعة الموشن جرافيك والفيديوهات الإعلانية.",
+      "descEn": "Design highlighting motion graphics production skills and commercial videos.",
+      "videoUrl": "/motion-graphics.977bdbf3.png"
+    },
+    {
+      "id": 37,
+      "titleAr": "تصميم قلم ذكي (Apple Pencil)",
+      "titleEn": "Apple Pencil Design",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم إعلاني ترويجي لملحقات آبل بيند.",
+      "descEn": "Promotional advertising design for Apple Pencil accessories.",
+      "videoUrl": "/pen.jpg"
+    },
+    {
+      "id": 38,
+      "titleAr": "إعلان خدمات الطباعة والهوية",
+      "titleEn": "Printing & Identity Services Ad",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "إعلان ترويجي لخدمات الطباعة المتميزة وتصميم المطبوعات.",
+      "descEn": "Promotional ad for premium printing services and print design.",
+      "videoUrl": "/printing.a82d222e.png"
+    },
+    {
+      "id": 39,
+      "titleAr": "تصميم واجهة تسويق وتحسين محركات البحث",
+      "titleEn": "SEO & Marketing Interface Design",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "تصميم يوضح خدمات تحسين محركات البحث SEO والتسويق الرقمي.",
+      "descEn": "Design illustrating SEO optimization services and digital marketing.",
+      "videoUrl": "/seo22612e7a.png"
+    },
+    {
+      "id": 40,
+      "titleAr": "تصميم بوستر سوشيال ميديا عام",
+      "titleEn": "General Social Media Poster",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم بوستر ترويجي لحملات السوشيال ميديا.",
+      "descEn": "Promotional poster design for social media campaigns.",
+      "videoUrl": "/social-media.68ea66d5.png"
+    },
+    {
+      "id": 41,
+      "titleAr": "إعلان ساعة أبل الترا",
+      "titleEn": "Apple Watch Ultra Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "بانر إعلاني لأحدث إصدارات الساعات الذكية المميزة ساعة أبل الترا.",
+      "descEn": "Advertising banner for the latest smart watch editions, Apple Watch Ultra.",
+      "videoUrl": "/ultra.jpg"
+    },
+    {
+      "id": 42,
+      "titleAr": "إعلان سلسلة ساعات أبل الترا",
+      "titleEn": "Apple Watch Ultra Series Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان تسويقي لسلسلة ساعات أبل الترا وسيريز 8.",
+      "descEn": "Marketing ad for Apple Watch Ultra and Series 8 smart watches.",
+      "videoUrl": "/ultra-sers-8.jpg"
+    },
+    {
+      "id": 43,
+      "titleAr": "إعلان سلسلة ساعات أبل سيريز 7",
+      "titleEn": "Apple Watch Series 7 Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "تصميم إعلاني لعرض مواصفات وتخفيضات ساعات أبل سيريز 7.",
+      "descEn": "Advertising design showcasing specifications and discounts for Apple Watch Series 7.",
+      "videoUrl": "/Watch-Series-7.jpg"
+    },
+    {
+      "id": 44,
+      "titleAr": "تصميم واجهة وتطوير مواقع الويب",
+      "titleEn": "Web Development & UI Design",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "تصميم ترويجي لخدمات برمجة وتطوير مواقع الويب وتطبيقات الهواتف.",
+      "descEn": "Promotional design for web programming, development, and mobile apps services.",
+      "videoUrl": "/web-development.nta15f7196.png"
+    },
+    {
+      "id": 45,
+      "titleAr": "تصميم ترويجي عبر واتساب (1)",
+      "titleEn": "WhatsApp Promo Design (1)",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم ترويجي مخصص للمشاركة عبر رسائل وحالات واتساب.",
+      "descEn": "Promotional design tailored for sharing via WhatsApp messages and statuses.",
+      "videoUrl": "/WhatsApp Image 2025-12-28 at 4.45.52 PM.jpeg"
+    },
+    {
+      "id": 46,
+      "titleAr": "تصميم ترويجي عبر واتساب (2)",
+      "titleEn": "WhatsApp Promo Design (2)",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "تصميم ترويجي إضافي مخصص للحملات التسويقية عبر واتساب.",
+      "descEn": "Additional promotional design tailored for marketing campaigns via WhatsApp.",
+      "videoUrl": "/WhatsApp Image 2025-12-28 at 4.45.54 PM.jpeg"
+    },
+    {
+      "id": 47,
+      "titleAr": "إعلان سماعات وملحقات أبل",
+      "titleEn": "Apple Earphones & Accessories Ad",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "إعلان ترويجي للسماعات والملحقات الأصلية.",
+      "descEn": "Promotional ad for original earphones and accessories.",
+      "videoUrl": "/wp.jpg سماعة"
+    },
+    {
+      "id": 48,
+      "titleAr": "أيقونات الموقع العامة",
+      "titleEn": "General Website Icons",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "مجموعة الأيقونات المستخدمة في واجهات الموقع.",
+      "descEn": "Collection of icons used in website user interfaces.",
+      "videoUrl": "/icons.svg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "titleAr": "مشروع احترافي متكامل رقم #1",
+      "titleEn": "Professional Enterprise Project #1",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 1 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #1 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/branding.c8daf3b2.png"
+    },
+    {
+      "id": 2,
+      "titleAr": "مشروع احترافي متكامل رقم #2",
+      "titleEn": "Professional Enterprise Project #2",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 2 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #2 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/illustration.1e371c8f.png"
+    },
+    {
+      "id": 3,
+      "titleAr": "مشروع احترافي متكامل رقم #3",
+      "titleEn": "Professional Enterprise Project #3",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 3 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #3 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/media-production.naf074bbb.png"
+    },
+    {
+      "id": 4,
+      "titleAr": "مشروع احترافي متكامل رقم #4",
+      "titleEn": "Professional Enterprise Project #4",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 4 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #4 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/motion-graphics.977bdbf3.png"
+    },
+    {
+      "id": 5,
+      "titleAr": "مشروع احترافي متكامل رقم #5",
+      "titleEn": "Professional Enterprise Project #5",
+      "categoryAr": "تطوير الويب",
+      "categoryEn": "Web Development",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 5 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #5 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/printing.a82d222e.png"
+    },
+    {
+      "id": 6,
+      "titleAr": "مشروع احترافي متكامل رقم #6",
+      "titleEn": "Professional Enterprise Project #6",
+      "categoryAr": "تطبيقات الموبايل",
+      "categoryEn": "Mobile Apps",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 6 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #6 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/seo22612e7a.png"
+    },
+    {
+      "id": 7,
+      "titleAr": "مشروع احترافي متكامل رقم #7",
+      "titleEn": "Professional Enterprise Project #7",
+      "categoryAr": "التسويق الرقمي",
+      "categoryEn": "Digital Marketing",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 7 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #7 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/social-media.68ea66d5.png"
+    },
+    {
+      "id": 8,
+      "titleAr": "مشروع احترافي متكامل رقم #8",
+      "titleEn": "Professional Enterprise Project #8",
+      "categoryAr": "التصميم الإبداعي",
+      "categoryEn": "Creative Design",
+      "descAr": "هذا الوصف يمثل تفاصيل المشروع رقم 8 والذي تم تنفيذه بأحدث التقنيات والمعايير العالمية.",
+      "descEn": "This description represents project #8 built with cutting-edge technologies and global standards.",
+      "videoUrl": "/web-development.nta15f7196.png"
+    }
+  ]
+}

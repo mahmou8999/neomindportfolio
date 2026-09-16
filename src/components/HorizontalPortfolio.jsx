@@ -5,14 +5,14 @@ import {
     useTransform,
     useSpring
 } from 'framer-motion';
-import projectsData from '../projectsData.json';
+import data from '../db.json';
 
 export default function HorizontalPortfolio({ darkMode, lang }) {
     const sectionRef = useRef(null);
     const trackRef = useRef(null);
     const containerRef = useRef(null);
     const [scrollDistance, setScrollDistance] = useState(0);
-
+    const items = data.projects;
     useEffect(() => {
         const calculateDistance = () => {
             if (!trackRef.current || !containerRef.current) return;
@@ -29,7 +29,7 @@ export default function HorizontalPortfolio({ darkMode, lang }) {
         return () => {
             window.removeEventListener('resize', calculateDistance);
         };
-    }, [projectsData]);
+    }, [items]);
 
     const { scrollYProgress } = useScroll({
         target: sectionRef,
@@ -70,7 +70,7 @@ export default function HorizontalPortfolio({ darkMode, lang }) {
                         className={`flex ${lang === 'ar' ? 'flex-row-reverse' : 'flex-row'
                             } gap-0 px-0 w-max shrink-0 will-change-transform items-center h-full`}
                     >
-                        {projectsData.map((project) => (
+                        {items.map((project) => (
                             <div
                                 key={project.id}
                                 dir={lang === 'ar' ? 'rtl' : 'ltr'}
@@ -92,7 +92,7 @@ export default function HorizontalPortfolio({ darkMode, lang }) {
                                 <div className="relative z-10 my-auto flex justify-center items-center">
                                     <a
                                         href="#contact"
-                                        className="opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 bg-indigo-600/90 hover:bg-indigo-600 text-white font-bold px-6 py-3 rounded-xl shadow-xl backdrop-blur-md border border-indigo-400/30 flex items-center gap-2"
+                                        className={`${darkMode ? 'bg-white text-black' : 'bg-brand text-white'} opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 font-bold px-6 py-3 rounded-xl flex items-center gap-2`}
                                     >
                                         <span>{lang === 'ar' ? 'اعرف التفاصيل' : 'View Details'}</span>
                                         <span className={lang === 'ar' ? 'rotate-180' : ''}>→</span>

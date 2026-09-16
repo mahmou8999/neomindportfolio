@@ -5,7 +5,7 @@ import {
     useMotionValue,
     useTransform,
 } from 'framer-motion';
-import projectsData from '../projectsData.json';
+import data from '../db.json';
 
 export default function AutoScrollPortfolio({ darkMode, lang }) {
     const row1Ref = useRef(null);
@@ -17,10 +17,12 @@ export default function AutoScrollPortfolio({ darkMode, lang }) {
     const baseX1 = useMotionValue(0);
     const baseX2 = useMotionValue(0);
 
-    const half = Math.ceil(projectsData.length / 2);
+    const items = data.logos;
 
-    const originalRow1 = projectsData.slice(0, half);
-    const originalRow2 = projectsData.slice(half);
+    const half = Math.ceil(items.length / 2);
+
+    const originalRow1 = items.slice(0, half);
+    const originalRow2 = items.slice(half);
 
     const row1 = [...originalRow1, ...originalRow1];
     const row2 = [...originalRow2, ...originalRow2];
@@ -66,7 +68,7 @@ export default function AutoScrollPortfolio({ darkMode, lang }) {
             resizeObserver.disconnect();
             window.removeEventListener('resize', calculateWidths);
         };
-    }, [projectsData.length, lang]);
+    }, [items.length, lang]);
 
     const x1 = useTransform(baseX1, (value) => {
         if (!row1Width) {
@@ -101,23 +103,23 @@ export default function AutoScrollPortfolio({ darkMode, lang }) {
         <div
             key={`${project.id}-${idx}`}
             dir="ltr"
-            className="relative shrink-0 w-[45vw] sm:w-[32vw] md:w-[26vw] h-[38vh] sm:h-[42vh] flex flex-col justify-end overflow-hidden bg-slate-950 rounded-none shadow-xl group"
+            className="relative shrink-0 w-[45vw] sm:w-[32vw] md:w-[22vw] flex flex-col items-center gap-4 group"
         >
-            <img
-                src={project.imageUrl || project.videoUrl}
-                alt={lang === 'ar' ? project.titleAr : project.titleEn}
-                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700"
-            />
-
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+            <div className="relative w-40 h-40 sm:w-52 sm:h-52 rounded-full bg-slate-200/80 dark:bg-slate-800 flex items-center justify-center overflow-hidden shadow-md group-hover:scale-105 transition duration-700">
+                <img
+                    src={project.imageUrl || project.videoUrl}
+                    alt={lang === 'ar' ? project.titleAr : project.titleEn}
+                    className="w-3/4 h-3/4 object-contain group-hover:scale-110 transition duration-700"
+                />
+            </div>
 
             <div
-                className={`relative z-10 p-5 sm:p-6 flex flex-col justify-end ${
+                className={`flex flex-col items-center ${
                     lang === 'ar' ? 'text-right' : 'text-left'
                 }`}
                 dir={lang === 'ar' ? 'rtl' : 'ltr'}
             >
-                <h3 className="text-base sm:text-lg font-bold text-white tracking-tight">
+                <h3 className="text-base sm:text-lg font-bold tracking-tight">
                     {lang === 'ar'
                         ? project.titleAr
                         : project.titleEn}
@@ -130,7 +132,7 @@ export default function AutoScrollPortfolio({ darkMode, lang }) {
         <section
             id="dual-portfolio"
             dir="ltr"
-            className={`relative py-20 overflow-hidden flex flex-col justify-center gap-6 ${
+            className={`relative py-20 overflow-hidden flex flex-col justify-center gap-10 ${
                 darkMode
                     ? 'bg-slate-950 text-slate-100'
                     : 'bg-white text-slate-900'
@@ -141,7 +143,7 @@ export default function AutoScrollPortfolio({ darkMode, lang }) {
                     ref={row1Ref}
                     style={{ x: x1 }}
                     dir="ltr"
-                    className="flex flex-row gap-6 w-max shrink-0 will-change-transform items-center"
+                    className="flex flex-row gap-8 w-max shrink-0 will-change-transform items-center"
                 >
                     {row1.map((project, idx) =>
                         renderCard(project, idx)
@@ -154,7 +156,7 @@ export default function AutoScrollPortfolio({ darkMode, lang }) {
                     ref={row2Ref}
                     style={{ x: x2 }}
                     dir="ltr"
-                    className="flex flex-row gap-6 w-max shrink-0 will-change-transform items-center"
+                    className="flex flex-row gap-8 w-max shrink-0 will-change-transform items-center"
                 >
                     {row2.map((project, idx) =>
                         renderCard(project, idx)
